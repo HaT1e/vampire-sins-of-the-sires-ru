@@ -1,1 +1,26 @@
-{"crc":-901417297,"lines":["*label start","*check_purchase adfree","","*if choice_purchased_adfree = false","  [b]Главы с 4-й по 12-ю[/b]","  ","  Откройте главы с 4-й по 12-ю, включая захватывающий финал!","  ","  *purchase adfree $0.99 start","","*if choice_purchased_everything","  Вы получили все улучшения!","","*if choice_purchased_adfree","  [b]Главы с 4-й по 12-ю[/b]","  ","  Вы оплатили доступ к главам с 4-й по 12-ю.",""],"labels":{"start":0}}
+{
+ "crc": -343949234,
+ "lines": [
+  "*label start",
+  "*check_purchase adfree",
+  "",
+  "*if choice_purchased_adfree = false",
+  "  [b]Главы с 4-й по 9-ю[/b]",
+  "  ",
+  "  Откройте главы с 4-й по 9-ю, включая захватывающий финал!",
+  "  ",
+  "  *purchase_discount adfree 2026-06-08 $11.99 $7.99 start",
+  "",
+  "*if choice_purchased_everything",
+  "  Вы получили все улучшения!",
+  "",
+  "*if choice_purchased_adfree",
+  "  [b]Главы с 4-й по 9-ю[/b]",
+  "  ",
+  "  Вы оплатили доступ к главам с 4-й по 9-ю.",
+  ""
+ ],
+ "labels": {
+  "start": 0
+ }
+}
