@@ -1,0 +1,20 @@
+{
+  "name": "Vampire: The Masquerade — Грехи сиров",
+  "short_name": "Грехи сиров",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#626160",
+  "theme_color": "#626160"
+}
